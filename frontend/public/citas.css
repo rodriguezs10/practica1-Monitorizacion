@@ -1,0 +1,99 @@
+/* ======== NUEVA CITA ======== */
+body {
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  background-color: #f7f9fb;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #0066cc;
+  color: white;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header button {
+  background-color: #ff4c4c;
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+header button:hover {
+  background-color: #cc0000;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+section {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 500px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #0066cc;
+  margin-top: 0;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+input,
+textarea {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  width: 100%;
+  resize: none;
+}
+
+button[type="submit"] {
+  background-color: #0066cc;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button[type="submit"]:hover {
+  background-color: #004c99;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #f1f1f1;
+  color: #555;
+  margin-top: 40px;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Clínica - Login</title>
+  <link rel="stylesheet" href="login.css">
+  <script>
+    if (localStorage.getItem("usuario_id")) location.href = "index.html";
+  </script>
+  <script src="login.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Iniciar sesión</h1>
+    <form id="formLogin">
+      <input id="email" type="email" placeholder="Correo" required>
+      <input id="password" type="password" placeholder="Contraseña" required>
+      <button type="submit">Entrar</button>
+    </form>
+
+    <hr>
+    <h2>Registrarse</h2>
+    <form id="formRegistro">
+      <input id="nombre" type="text" placeholder="Nombre completo" required>
+      <input id="emailReg" type="email" placeholder="Correo" required>
+      <input id="passwordReg" type="password" placeholder="Contraseña" required>
+      <button type="submit">Crear cuenta</button>
+    </form>
+  </div>
+</body>
+</html>

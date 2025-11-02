@@ -1,0 +1,187 @@
+/* Estilo general */
+body {
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  background-color: #f7f9fb;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+header {
+  background-color: #0066cc;
+  color: white;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header button {
+  background-color: #ff4c4c;
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+header button:hover {
+  background-color: #cc0000;
+}
+
+/* Secciones */
+section {
+  background-color: white;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 600px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+  color: #0066cc;
+  margin-top: 0;
+}
+
+/* Perfil */
+#datosUsuario p {
+  margin: 6px 0;
+}
+
+/* Lista de citas */
+#listaCitas {
+  list-style: none;
+  padding: 0;
+}
+
+#listaCitas li {
+  background-color: #e9f0fa;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  line-height: 1.4;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #f1f1f1;
+  color: #555;
+  margin-top: 30px;
+}
+
+
+button {
+  background-color: #0066cc;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  background-color: #004c99;
+}
+
+
+/* ==== ESTILO DE LAS CITAS ==== */
+#listaCitas {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#listaCitas li {
+  background-color: #ffffff;
+  border: 1px solid #d9e1f2;
+  border-left: 6px solid #0066cc;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  padding: 12px 16px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.cita-fecha {
+  font-size: 15px;
+  font-weight: bold;
+  color: #0066cc;
+  margin-bottom: 6px;
+}
+
+.cita-descripcion {
+  font-size: 14px;
+  color: #444;
+  line-height: 1.4;
+}
+
+.icono {
+  margin-right: 5px;
+}
+
+.acciones button.editar {
+  background-color: #f1c40f;
+  color: #000;
+}
+
+.acciones button.editar:hover {
+  background-color: #d4ac0d;
+}
+
+.acciones button.eliminar {
+  background-color: #e74c3c;
+}
+
+.acciones button.eliminar:hover {
+  background-color: #c0392b;
+}
+
+/* ======== VISTAS ======== */
+#vistaPerfil, #vistaCitas {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 600px;
+  margin: 20px auto;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.acciones {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+button {
+  background-color: #0066cc;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  background-color: #004c99;
+}
+
+button.danger {
+  background-color: #ff4c4c;
+}
+
+button.danger:hover {
+  background-color: #cc0000;
+}

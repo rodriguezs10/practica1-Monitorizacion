@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Clínica - Panel</title>
+  <link rel="stylesheet" href="index.css">
+  <script>
+    if (!localStorage.getItem("usuario_id")) location.href = "login.html";
+  </script>
+  <script src="index.js" defer></script>
+</head>
+<body>
+  <header><h1>Panel de citas</h1></header>
+
+  <main>
+    <section id="vistaCitas">
+      <h2>Mis Citas</h2>
+      <ul id="listaCitas"></ul>
+      <div class="botones">
+        <button id="btnNuevaCita">Nueva cita</button>
+        <button id="btnPerfil">Perfil</button>
+        <button id="cerrarSesion">Cerrar sesión</button>
+      </div>
+    </section>
+
+    <section id="vistaPerfil" style="display:none;">
+      <h2>Perfil</h2>
+      <p><strong>Nombre:</strong> <span id="nombreUsuario"></span></p>
+      <p><strong>Email:</strong> <span id="emailUsuario"></span></p>
+      <button id="volverInicio">Volver</button>
+      <button id="eliminarCuenta">Eliminar cuenta</button>
+    </section>
+
+    <section id="vistaEditarCita" style="display:none;">
+      <h2>Editar Cita</h2>
+      <form id="formEditarCita">
+        <input id="editFecha" type="date" required>
+        <input id="editHora" type="time" required>
+        <textarea id="editDescripcion" placeholder="Descripción" required></textarea>
+        <div class="botones">
+          <button type="submit">Guardar</button>
+          <button type="button" id="cancelarEdicion">Cancelar</button>
+        </div>
+      </form>
+    </section>
+  </main>
+</body>
+</html>
