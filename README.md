@@ -3,14 +3,12 @@
 
 *Asignatura:* Despliegue y Monitorización en la Nube
 
-*Alumno:* Adrián López Martín
+*Alumno:* Adrián López Martín y Alejandro Rodríguez Salán  
 
 *Fecha:* 02 de noviembre de 2025
 
 ---
 
-Este proyecto fue desarrollado para la empresa ficticia *TechSolutions S.A.*, dedicada al desarrollo de software para el sector sanitario.  
-La empresa solicitó un prototipo funcional de una aplicación web que permita gestionar citas médicas en clínicas privadas, garantizando portabilidad y facilidad de despliegue mediante Docker.
 
 La aplicación se compone de tres servicios principales:
 
@@ -133,6 +131,7 @@ Debe devolver:
 4. Editar o eliminar una cita.
 5. Cerrar sesión y volver al login.
 
+
 ---
 
 ## Comandos útiles
@@ -150,8 +149,13 @@ docker-compose restart frontend
 
 ---
 
-## Conclusión
 
-El sistema se despliega correctamente mediante Docker Compose, creando tres contenedores independientes y comunicados entre sí.
-La aplicación permite realizar todas las operaciones de gestión de citas médicas de forma integrada.
+## Repositorio en GitHub
+**[https://github.com/adriannlm/practica1-Monitorizacion](https://github.com/adriannlm/practica1-Monitorizacion)**
+
+
+
+
+
+
 
